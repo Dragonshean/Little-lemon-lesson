@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Little lemon restaurant" />
+    <meta name="author" content="little lemon restaurant" />
+    <title>Little Lemon</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Ubuntu+Condensed&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <img
+        width="500rem"
+        src="./assets/Asset 16@4x.png"
+        alt="Little lemon logo"
+      />
+    </header>
+    <nav class="navBar">
+      <ul>
+        <li>
+          <a href="index.html" class="nav-home" id="nav-home">Home</a>
+        </li>
+        <li>
+          <a href="#menu" class="nav-menu" id="nav-menu">Menu</a>
+        </li>
+        <li>
+          <a href="#About" class="nav-about" id="nav-about">About</a>
+        </li>
+        <li>
+          <a href="contact.html" class="nav-contact" id="nav-contact"
+            >Contact</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <section class="section-1" id="section-1">
+        <h1>Make a reservation here</h1>
+    </section>
+    <section class="section-3" id="columns">
+        <form>
+        <div>
+            <label for="email_address">Email Address</label>
+            <input type="email" id="email_address" name="email_address" />
+        </div>
+        <div>
+            <label for="booking_date">Date of Booking</label>
+            <input type="date" id="booking_date" name="booking_date" />
+        </div>
+        <div>
+            <label for="people">Number of people</label>
+            <input type="number" id="people" min="1" max="8" name="people" />
+        </div>
+        <div>
+            <label>
+            <input type="checkbox" id="agree" name="agree" required />
+            I agree to the cancellation policy
+            </label>
+        </div>
+        <button type="submit">Book Now</button>
+        </form>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d8597.223032159674!2d121.5425036307994!3d25.044693612817447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1szh-TW!2stw!4v1675178193527!5m2!1szh-TW!2stw"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
+
+    <footer class="footer" id="contact">
+      <div class="left-footerBar">
+        <h1>Information</h1>
+        <ul>
+          <li>
+            Address: Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          </li>
+          <li>Contact Number: Tel-(XX)-0123456</li>
+          <li>Opening Hours: Mon-Fri 09:00 a.m. - 17:00 p.m.</li>
+        </ul>
+      </div>
+      <div class="middle-footerBar">
+        <img
+          class="footer-img"
+          src="./assets/Asset 20@4x.png"
+          alt="Little lemon logo"
+        />
+      </div>
+      <div class="right-footerBar">
+        <p>Copyright © 2023 Little Lemon Inc.</p>
+      </div>
+    </footer>
+  </body>
+</html>
